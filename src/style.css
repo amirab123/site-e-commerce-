@@ -1,0 +1,73 @@
+/* Container en grille moderne */
+.grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+/* Ligne panier avec effet subtle */
+.ligne-panier {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+.ligne-panier:hover {
+  background-color: #f9f9f9;
+}
+
+/* Boutons modernes */
+button {
+  background: #07835c;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #056645;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Inputs modernes */
+input {
+  width: 100%;
+  padding: 10px 12px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #07835c;
+  outline: none;
+  box-shadow: 0 0 5px rgba(7, 131, 92, 0.3);
+}
+
+/* Labels */
+label {
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: block;
+}
+
+/* Section page */
+.page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+}
