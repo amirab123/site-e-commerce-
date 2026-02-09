@@ -33,7 +33,7 @@ Il permet de :
 
 ## Structure du projet
 
-site-e-commerce/
+
 <img width="357" height="846" alt="image" src="https://github.com/user-attachments/assets/9df0e099-73c6-43fc-8eda-3965cfcd060d" />
 
 
