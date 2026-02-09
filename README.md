@@ -31,13 +31,13 @@ Il permet de :
 
 ---
 
-## Structure du projet
 
+## Captures d’écran / Structure du projet
 
 <img width="357" height="846" alt="image" src="https://github.com/user-attachments/assets/9df0e099-73c6-43fc-8eda-3965cfcd060d" />
 
 
-
+<img width="1906" height="474" alt="image" src="https://github.com/user-attachments/assets/a2835508-9bed-4b37-af8f-bb7bfd3bfc4f" />
 ---
 
 ## Installation
@@ -47,6 +47,10 @@ Il permet de :
 ```bash
 git clone https://github.com/amirab123/site-e-commerce-.git
 cd site-e-commerce
+
+
+
+
 
 
 
